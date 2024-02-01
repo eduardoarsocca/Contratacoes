@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 407px;
+    padding: 96px 0;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.banner__titulo{
+    font-weight: 600;
+    color: var(--cor-vinho);
+    font-size: 16px;
+}
+
+.banner__chamada{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cor-cinza-dark);
+    line-height: 60px;
+    letter-spacing: -0.96px;
+}
+
+.banner__texto{
+    font-size: 20px;line-height: 30px;
+    color: var(--cor-cinza-claro);
+    width: 791;
+    margin: 0 18em;
+}

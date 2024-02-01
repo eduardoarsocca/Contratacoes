@@ -1,0 +1,76 @@
+.cabecalho{
+    background-color: var(cor-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 3em;
+    padding: 0em 0.5em;
+    
+
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor-cinza-claro);
+    gap: 1em;
+    
+    width: 1440px;
+    height: 80px;
+    
+}
+
+.container__empresa{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.container__nome-empresa{
+    color: var(--cor-cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lista__menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 40em;
+}
+
+.lista__menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 2em;
+}
+
+.lista__menu-link:hover{
+    background-color: var(--cor-vinho);
+    color: var(--cor-branco);
+    padding: 1em;
+    border-radius: 8px ;
+}
+
+.container__usuario{
+    display: flex;
+    align-items: center;
+}
+
+.lista__menu-acoes{
+    text-decoration: none;
+    margin-left: 2em;
+    font-weight: 500;
+}
+
+.botao-cadastro{
+    background-color: var(--cor-vinho);
+    color: var(--cor-branco);
+    padding: 1em;
+    border-radius: 8px ;
+}

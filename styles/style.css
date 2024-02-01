@@ -1,0 +1,18 @@
+@import url("header.css");
+@import url("banner.css");
+
+:root{
+    --cor-branco: #ffffff;
+    --cor-vinho: #8E2424;
+    --cor-cinza-claro: #667085;
+    --cor-cinza-escuro: #3A404E;
+    --cor-cinza-dark: #101828;
+    --fonte-principal: "Inter";
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
