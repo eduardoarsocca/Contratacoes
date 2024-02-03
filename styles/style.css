@@ -1,13 +1,16 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("metricas.css");
+@import url("vagas.css");
 
 :root{
     --cor-branco: #ffffff;
     --cor-vinho: #8E2424;
+    --cor-vinho-transparente: #8E24240d;
     --cor-cinza-claro: #667085;
     --cor-cinza-escuro: #3A404E;
     --cor-cinza-dark: #101828;
+    --cor-cinza-bordas: #EAECF0;
     --fonte-principal: "Inter";
 }
 

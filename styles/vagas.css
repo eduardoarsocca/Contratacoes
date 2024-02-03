@@ -1,0 +1,100 @@
+.vagas{
+    padding: 30px 40px;
+    justify-content: center;
+    width: 1280px;
+    height: auto;
+    gap: 0 30px;
+
+}
+
+
+.vagas__talentos{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.vagas__talentos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.vagas__talentos-titulo{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--cor-vinho-transparente);
+    color: var(--cor-vinho);
+    border-radius: 30em;
+    text-align: center;
+    padding: 0.3em 1em;
+    margin-bottom: 0;
+}
+
+.vagas__talentos-chamada{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--cor-cinza-dark);
+    margin: 0.5em;
+}
+
+.vagas__talentos-texto{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-cinza-claro);
+}
+
+.vagas__abertas{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vagas__abertas-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vagas__abertas-conteudo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 18% 0 18%;
+}
+
+.vagas__abertas-area{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-cinza-dark);
+}
+
+.vagas__abertas-posicao-conteudo{
+    border: 2px solid var(--cor-cinza-bordas);
+    border-radius: 16px;
+    padding: 0 3% 2% 3%;
+    margin-bottom: 3%;
+}
+
+.vagas__abertas-posicao-conteudo-tipo{
+    height:  28px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-cinza-dark);
+}
+.vagas__abertas-posicao-conteudo-detalhe{
+    display: flex;
+    gap: 2%;
+    height:  28px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-cinza-claro);
+}
+
+
